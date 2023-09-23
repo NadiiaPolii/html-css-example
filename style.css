@@ -1,0 +1,102 @@
+body{
+	margin: 0;
+	display: flex;
+	justify-content: center;
+}
+li{
+	margin-block: 5px;
+}
+.container{
+	display: flex;
+	width: 720px;
+	flex-direction: column;
+	background-color: rgb(254, 208, 255);
+	padding: 50px 20px;
+}
+.info{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.position{
+	font-size: 26px;
+	font-weight: 900;
+}
+.profile{
+	display: flex;
+}
+.img{
+	border-radius: 50%;
+	width: 75%;
+	height: auto;
+}
+.FIO{
+	font-size: 80px;
+	font-weight: 900;
+	padding-top: 45px;
+}
+main{
+	display: flex;
+	flex-direction: column;
+}
+.sk{
+	display: flex;
+}
+.h3s{
+	width: 100px;
+	white-space: nowrap;
+}
+.ulsk{
+	padding-left: 15px;
+	display: flex;
+	flex-flow: column wrap;
+}
+.ex{
+	display: flex;
+}
+.h3e{
+	width: 100px;
+}
+.ulexp{
+	padding-left: 15px;
+	display: flex;
+	flex-flow: column wrap;
+}
+footer{
+	display: flex;
+	flex-flow: column wrap;
+}
+.flex-base{
+	flex: 0 1 30%;
+}
+.flex-1{
+	flex: 1;
+}
+.margin-none{
+	margin: unset;
+}
+.d-flex{
+	display: flex;
+}
+
+header{
+	padding: 40px 30px;
+	border-top: 2px solid darkviolet;
+	border-left: 2px solid darkviolet;
+	border-right: 2px solid darkviolet;
+	border-bottom: 1px solid darkviolet;
+}
+main{
+	padding: 40px 30px;
+	border-top: 1px solid darkviolet;
+	border-left: 2px solid darkviolet;
+	border-right: 2px solid darkviolet;
+	border-bottom: 1px solid darkviolet;	
+}
+footer{
+	padding: 40px 30px;
+	border-top: 1px solid darkviolet;
+	border-left: 2px solid darkviolet;
+	border-right: 2px solid darkviolet;
+	border-bottom: 2px solid darkviolet;		
+}
